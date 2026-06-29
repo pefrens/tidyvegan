@@ -1,0 +1,263 @@
+\name{cca.object}
+\alias{cca.object}
+\alias{ordConstrained}
+\alias{ordiYbar}
+\alias{model.matrix.cca}
+\alias{model.matrix.rda}
+\alias{model.frame.cca}
+\alias{weights.cca}
+\alias{weights.rda}
+\alias{weights.decorana}
+\alias{print.cca}
+
+\title{Result Object from Constrained Ordination}
+
+\description{
+
+  Ordination methods \code{\link{cca}}, \code{\link{rda}},
+  \code{\link{dbrda}} and \code{\link{capscale}} return similar result
+  objects. All these methods use the same internal function
+  \code{ordConstrained}. They differ only in (1) initial
+  transformation of the data and in defining inertia, (2) weighting,
+  and (3) the use of rectangular rows \eqn{\times}{x} columns data or
+  symmetric rows \eqn{\times}{x} rows dissimilarities:
+  \code{\link{rda}} initializes data to give variance or correlations
+  as inertia, \code{\link{cca}} is based on double-standardized data
+  to give Chi-square inertia and uses row and column weights,
+  \code{\link{capscale}} maps the real part of dissimilarities to
+  rectangular data and performs RDA, and \code{\link{dbrda}} performs
+  an RDA-like analysis directly on symmetric dissimilarities.
+
+  Function \code{ordConstrained} returns the same result components
+  for all these methods, and the calling function may add some more
+  components to the final result. However, you should not access these
+  result components directly (using \code{$}): the internal structure
+  is not regarded as stable application interface (API), but it can
+  change at any release. If you access the results components
+  directly, you take a risk of breakage at any \pkg{vegan} release.
+  The \pkg{vegan} provides a wide set of accessor functions to those
+  components, and these functions are updated when the result object
+  changes. This documentation gives an overview of accessor functions
+  to the \code{cca} result object.
+
+}
+
+\usage{
+ordConstrained(Y, X = NULL, Z = NULL, method = c("cca", "rda",
+    "capscale", "dbrda", "pass"), arg = FALSE)
+ordiYbar(x, model = c("CCA", "CA", "pCCA", "partial", "initial"))
+\method{model.frame}{cca}(formula, ...)
+\method{model.matrix}{cca}(object, ...)
+\method{weights}{cca}(object, display = "sites", ...)
+}
+
+\arguments{
+  \item{Y, X, Z}{Input matrix of responses (\code{Y}) and model matrices
+    of constraints (\code{X}) and conditions (\code{Z}). \code{NULL}
+    matrices are ignored.}
+  \item{method}{Ordination method. If \code{"pass"}, method is defined
+    by \code{Y} of fitted ordination model.}
+  \item{arg}{Possible extra argument passed to \code{method}; in
+    \code{\link{rda}} this is \code{scale}.}
+  \item{object, x, formula}{A result object from \code{\link{cca}},
+    \code{\link{rda}}, \code{\link{dbrda}}, or
+    \code{\link{capscale}}. }
+
+  \item{model}{Show constrained (\code{"CCA"}), unconstrained
+    (\code{"CA"}) or conditioned \dQuote{partial} (\code{"pCCA"})
+    results. In \code{ordiYbar} the value can also be \code{"initial"}
+    for the internal working input data, and \code{"partial"} for the
+    internal working input data after removing the partial effects.}
+
+  \item{display}{Display either \code{"sites"} or \code{"species"}.}
+
+  \item{\dots}{Other arguments passed to the the function.}
+
+}
+
+\details{
+
+  Function \code{ordConstrained} is used as the basic analysis engine
+  in all [partial] constrained ordination methods (\code{\link{cca}},
+  \code{\link{rda}}, \code{\link{dbrda}} _etc_). Those higher-level
+  functions set up the data for \code{ordConstrained} and add items
+  used in printing or further analysis of the results. Function
+  \code{ordConstrained} can also be called directly, but the user
+  should be very careful in setting up the input arguments and in
+  processing the result. All supported ordination methods have an
+  \code{initXXX} function that transforms the data for analysis and
+  sets data attributes for analytic steps. These arguments include
+  attribute \code{METHOD} and for \code{\link{cca}} row and column
+  weights (attributes \code{RW} and \code{CW}). These are used to
+  select the branch of analysis in further steps. Argument
+  \code{method} selects the ordination type. \code{method = "pass"} is
+  used when the dependent matrix \code{Y} already was processed with
+  an \code{initXXX} method. This allows embedding
+  \code{ordConstrained} in other functions with any constrained
+  ordination method or using your own \code{initXXX} method (see
+  Examples). Dependent matrix \code{Y} must be supplied but conditions
+  \code{Z} and constraints \code{X} can be \code{NULL} and then this
+  analysis step is skipped (if both are \code{NULL}, unconstrained
+  ordination is performed). Steps for conditions (partialling) and
+  constraints return residuals of input \code{Y} for the next step,
+  and all methods return their analysis results.
+
+  The internal (\dQuote{working}) form of the dependent (community)
+  data can be accessed with function \code{ordiYbar}. The form depends
+  on the ordination method: for instance, in \code{\link{cca}} the
+  data are weighted and Chi-square transformed, and in
+  \code{\link{dbrda}} they are Gower-centred dissimilarities. The
+  input data in the original (\dQuote{response}) form can be accessed
+  with \code{\link{fitted.cca}} and \code{\link{residuals.cca}}.
+  Function \code{\link{predict.cca}} can return either working or
+  response data, and also their lower-rank approximations.
+
+  The model matrix of independent data (\dQuote{Constraints} and
+  \dQuote{Conditions}) can be extracted with \code{model.matrix}. In
+  partial analysis, the function returns a list of design matrices
+  called \code{Conditions} and \code{Constraints}. If either component
+  was missing, a single matrix is returned. The redundant (aliased)
+  terms do not appear in the model matrix. These terms can be found
+  with \code{\link{alias.cca}}. Function \code{model.frame} tries to
+  reconstruct the data frame from which the model matrices were
+  derived. This is only possible if the original model was fitted with
+  \code{formula} and \code{data} arguments, and still fails if the
+  \code{data} are unavailable.
+
+  The number of observations can be accessed with
+  \code{\link{nobs.cca}}, and the residual degrees of freedom with
+  \code{\link{df.residual.cca}}. The information on observations with
+  missing values can be accessed with \code{\link{na.action}}.  The
+  terms and formula of the fitted model can be accessed with
+  \code{\link{formula}} and \code{\link{terms}}.
+
+  The weights used in \code{\link{cca}} can be accessed with
+  \code{weights}. In unweighted methods (\code{\link{rda}}) all
+  weights are equal.
+
+  The ordination results are saved in separate components for partial
+  terms, constraints and residual unconstrained ordination. There is
+  no guarantee that these components will have the same internal names
+  as currently, and you should be cautious when developing scripts and
+  functions that directly access these components.
+
+  The constrained ordination algorithm is based on QR decomposition of
+  constraints and conditions (environmental data), and the QR
+  component is saved separately for partial and constrained
+  components.  The QR decomposition of constraints can be accessed
+  with \code{\link{qr.cca}}. This will also include the residual
+  effects of partial terms (Conditions), and it should be used
+  together with \code{ordiYbar(x, "partial")}. The environmental data
+  are first centred in \code{rda} or weighted and centred in
+  \code{cca}.  The QR decomposition is used in many functions that
+  access \code{cca} results, and it can be used to find many items
+  that are not directly stored in the object.  For examples, see
+  \code{\link{coef.cca}}, \code{\link{coef.rda}},
+  \code{\link{vif.cca}}, \code{\link{permutest.cca}},
+  \code{\link{predict.cca}}, \code{\link{predict.rda}},
+  \code{\link{calibrate.cca}}. See \code{\link{qr}} for other possible
+  uses of this component. For instance, the rank of the constraints
+  can be found from the QR decomposition.
+
+  The eigenvalues of the solution can be accessed with
+  \code{\link{eigenvals.cca}}. Eigenvalues are not evaluated for
+  partial component, and they will only be available for constrained
+  and residual components.
+
+  The ordination scores are internally stored as (weighted)
+  orthonormal scores matrices. These results can be accessed with
+  \code{\link{scores.cca}} and \code{\link{scores.rda}} functions. The
+  ordination scores are scaled when accessed with \code{\link{scores}}
+  functions, but internal (weighted) orthonormal scores can be
+  accessed by setting \code{scaling = FALSE}. Unconstrained residual
+  component has species and site scores, and constrained component has
+  also fitted site scores or linear combination scores for sites and
+  biplot scores and centroids for constraint variables. The biplot
+  scores correspond to the \code{model.matrix}, and centroids
+  are calculated for factor variables when they were used. The scores
+  can be selected by defining the axes, and there is no direct way of
+  accessing all scores of a certain component. The number of dimensions
+  can be assessed from \code{\link{eigenvals}}. In addition, some
+  other types can be derived from the results although not saved in
+  the results. For instance, regression scores and model coefficients
+  can be accessed with \code{\link{scores}} and \code{\link{coef}}
+  functions. Partial component will have no scores.
+
+  Distance-based methods (\code{\link{dbrda}}, \code{\link{capscale}})
+  can have negative eigenvalues and associated imaginary axis scores. In
+  addition, species scores are initially missing in \code{\link{dbrda}}
+  and they are accessory and found after analysis in
+  \code{\link{capscale}} (and may be misleading). Function
+  \code{\link{sppscores}} can be used to add species scores or replace
+  them with more meaningful ones.
+
+}
+
+\seealso{
+
+  The core function is \code{\link{ordConstrained}} which is called by
+  \code{\link{cca}}, \code{\link{rda}}, \code{\link{dbrda}},
+  \code{\link{capscale}} as well as by unconstrained methods
+  \code{\link{pca}}, \code{\link{ca}} and \code{\link{pco}}. The basic
+  defined for this class: \Sexpr[results=rd,stage=build]{require(tidyvegan,
+  quietly=TRUE); paste0("\\\\code{\\\\link{", methods(class="cca"),
+  "}}", collapse=", ")}.  Other functions handling \code{"cca"} objects
+  include \code{\link{inertcomp}}, \code{\link{intersetcor}},
+  \code{\link{mso}}, \code{\link{ordistep}}, \code{\link{ordiR2step}}
+  and \code{\link{vif.cca}}. Functions that can be regarded as special
+  cases of \code{"cca"} methods include \code{\link{adonis2}} and
+  \code{\link{varpart}}.
+
+}
+
+\note{
+  The latest large change of result object was made in release 2.5-1 in
+  2016. You can modernize ancient stray results with
+  \code{modernobject <- update(ancientobject)}.
+}
+
+\references{
+  Legendre, P. and Legendre, L. (2012) \emph{Numerical Ecology}. 3rd English
+  ed. Elsevier.
+}
+
+\examples{
+  data(dune, dune.env)
+  mod0 <- cca(dune ~ Management + Moisture, dune.env)
+  ## refit the model in ordConstrained
+  mrefit <- ordConstrained(ordiYbar(mod0, "initial"),
+                         model.matrix(mod0),
+                         NULL,
+                         "pass")
+
+  ## implement weighted RDA (weights w)
+  initWPCA <- function(Y, w) {
+    Y <- as.matrix(Y)
+    Y <- .Call("do_wcentre", Y, w)
+    attr(Y, "RW") <- w
+    attr(Y, "METHOD") <- "WPCA"
+    Y
+  }
+  mod <- rda(dune ~ Management + Moisture, dune.env)
+  mod
+  w <- rowSums(dune)/sum(dune)
+  adjust <- 1 + 1/(nrow(dune) - 1)
+  wmod <- ordConstrained(initWPCA(dune, w * adjust),
+                         model.matrix(~ Management + Moisture,dune.env)[,-1],
+                         NULL, "pass")
+  class(wmod) <- c("wrda", "cca") # for clean print.cca
+  wmod
+
+  ## CCA as weighted RDA (species scores differ, though).
+  dchi <- decostand(dune, "chi.sq")
+  ccmod <- ordConstrained(initWPCA(dchi, w), model.matrix(mod),
+                          NULL, "pass")
+  class(ccmod) <- c("wrda", "cca")
+  ccmod # wrda
+  mod0  # cca
+}
+
+\author{ Jari Oksanen }
+
+\keyword{ models}
+\keyword{multivariate}
