@@ -1,8 +1,13 @@
 Package: tidyvegan
 Title: Community Ecology Package
-Version: 2.8-0
+Version: 0.1.0
 Encoding: UTF-8
-Authors@R: c(person("Jari", "Oksanen", role=c("aut","cre","cph"),
+Authors@R: c(person(given = "Paul E.",
+                    family = "Santos Andrade",
+                    role = c("aut", "cre", "cph"),
+                    email = "paulefrens@gmail.com",
+                    comment = c(ORCID = "0000-0002-6635-0375")),
+             person("Jari", "Oksanen", role=c("aut","cph"),
                     email="jhoksane@gmail.com",
 		    comment = c(ORCID="0000-0001-7102-9626")),
 	   person("Gavin L.", "Simpson", role="aut",
@@ -44,7 +49,7 @@ Authors@R: c(person("Jari", "Oksanen", role=c("aut","cre","cph"),
 	   person("Cajo J.F.", "Ter Braak", role="aut"),
 	   person("James", "Weedon", role="aut"))
 Depends: permute (>= 0.9-0), R (>= 4.1.0)
-Suggests: parallel, knitr, rmarkdown, markdown, generics, tibble
+Suggests: parallel, knitr, rmarkdown, markdown, generics, tibble, dplyr
 Imports: MASS, cluster, lattice, mgcv
 VignetteBuilder: utils, knitr
 Description: Ordination methods, diversity analysis and other
@@ -52,8 +57,8 @@ Description: Ordination methods, diversity analysis and other
     constrained and unconstrained ordination methods, community
     null models, and tools for diversity and niche analysis.
 License: GPL-2
-BugReports: https://github.com/vegandevs/tidyvegan/issues
-URL: https://vegandevs.github.io/tidyvegan/, https://github.com/vegandevs/tidyvegan
+BugReports: https://github.com/pefrens/tidyvegan/issues
+URL: https://pefrens.github.io/tidyvegan/, https://github.com/pefrens/tidyvegan
 Config/roxygen2/version: 8.0.0
 Roxygen: list(roclets = c("collate", "rd"))
 

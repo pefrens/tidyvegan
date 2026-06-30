@@ -22,7 +22,7 @@ tools for deeper analysis in specific fields. Package
 functionality.
 
 The \pkg{tidyvegan} package is developed at GitHub
-(\url{https://github.com/vegandevs/tidyvegan/}).  GitHub provides up-to-date
+(\url{https://github.com/pefrens/tidyvegan/}).  GitHub provides up-to-date
 information and forums for bug reports.
 
 Most important changes in \pkg{tidyvegan} documents can be read with
@@ -35,7 +35,10 @@ To see the preferable citation of the package, type
 \code{citation("tidyvegan")}.  
 }
 
-\author{ The \pkg{tidyvegan} development team is Jari Oksanen,
+\author{
+Paul E. Santos Andrade \email{paulefrens@gmail.com} (creator and maintainer of \pkg{tidyvegan}).
+
+The original \pkg{vegan} development team is Jari Oksanen,
 F. Guillaume Blanchet, Roeland Kindt, Pierre Legendre, Peter
 R. Minchin, R. B. O'Hara, Gavin L. Simpson, Peter Solymos, M. Henry
 H. Stevens, Helene Wagner.  Many other people have contributed to

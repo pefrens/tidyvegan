@@ -3,9 +3,9 @@ home:
   description: "Ordination methods, diversity analysis and other functions for community and vegetation ecologists."
   links:
   - text: R-universe
-    href: https://vegandevs.r-universe.dev/tidyvegan
+    href: https://pefrens.r-universe.dev/tidyvegan
 
-url: https://vegandevs.github.io/tidyvegan/
+url: https://pefrens.github.io/tidyvegan/
 
 deploy:
   install_metadata: true

@@ -4,7 +4,7 @@ Ordination methods, diversity analysis and other functions for community and
 vegetation ecologists, now with tidyverse-compatible wrappers.
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/vegandevs/tidyvegan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/vegandevs/tidyvegan/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/pefrens/tidyvegan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pefrens/tidyvegan/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Website for the development version of the **tidyvegan** package.
@@ -47,5 +47,5 @@ You can install the development version of **tidyvegan** from GitHub:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("vegandevs/tidyvegan")
+remotes::install_github("pefrens/tidyvegan")
 ```
