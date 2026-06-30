@@ -1,0 +1,14 @@
+pandoc: 3.8.3
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles:
+  comparison-vegan-tidyvegan: comparison-vegan-tidyvegan.html
+  decision-vegan: decision-vegan.html
+  diversity-vegan: diversity-vegan.html
+  FAQ-vegan: FAQ-vegan.html
+  intro-vegan: intro-vegan.html
+  partitioning: partitioning.html
+last_built: 2026-06-30T04:32Z
+urls:
+  reference: https://pefrens.github.io/tidyvegan/reference
+  article: https://pefrens.github.io/tidyvegan/articles

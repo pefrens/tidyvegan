@@ -1,0 +1,541 @@
+# Package index
+
+## All functions
+
+- [`BCI`](https://pefrens.github.io/tidyvegan/reference/BCI.md)
+  [`BCI.env`](https://pefrens.github.io/tidyvegan/reference/BCI.md) :
+  Barro Colorado Island Tree Counts
+- [`CCorA()`](https://pefrens.github.io/tidyvegan/reference/CCorA.md)
+  [`biplot(`*`<CCorA>`*`)`](https://pefrens.github.io/tidyvegan/reference/CCorA.md)
+  : Canonical Correlation Analysis
+- [`MDSaddpoints()`](https://pefrens.github.io/tidyvegan/reference/MDSaddpoints.md)
+  [`dist2xy()`](https://pefrens.github.io/tidyvegan/reference/MDSaddpoints.md)
+  : Add New Points to NMDS ordination
+- [`MDSrotate()`](https://pefrens.github.io/tidyvegan/reference/MDSrotate.md)
+  : Rotate First MDS Dimension Parallel to an External Variable
+- [`MOStest()`](https://pefrens.github.io/tidyvegan/reference/MOStest.md)
+  [`plot(`*`<MOStest>`*`)`](https://pefrens.github.io/tidyvegan/reference/MOStest.md)
+  [`fieller.MOStest()`](https://pefrens.github.io/tidyvegan/reference/MOStest.md)
+  [`profile(`*`<MOStest>`*`)`](https://pefrens.github.io/tidyvegan/reference/MOStest.md)
+  [`confint(`*`<MOStest>`*`)`](https://pefrens.github.io/tidyvegan/reference/MOStest.md)
+  : Mitchell-Olds and Shaw Test for the Location of Quadratic Extreme
+- [`RsquareAdj(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/RsquareAdj.md)
+  [`RsquareAdj(`*`<rda>`*`)`](https://pefrens.github.io/tidyvegan/reference/RsquareAdj.md)
+  [`RsquareAdj(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/RsquareAdj.md)
+  : Adjusted R-square
+- [`SSarrhenius()`](https://pefrens.github.io/tidyvegan/reference/SSarrhenius.md)
+  [`SSgleason()`](https://pefrens.github.io/tidyvegan/reference/SSarrhenius.md)
+  [`SSgitay()`](https://pefrens.github.io/tidyvegan/reference/SSarrhenius.md)
+  [`SSlomolino()`](https://pefrens.github.io/tidyvegan/reference/SSarrhenius.md)
+  : Self-Starting nls Species-Area Models
+- [`add1(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/add1.cca.md)
+  [`drop1(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/add1.cca.md)
+  : Add or Drop Single Terms to a Constrained Ordination Model
+- [`adipart()`](https://pefrens.github.io/tidyvegan/reference/adipart.md)
+  [`hiersimu()`](https://pefrens.github.io/tidyvegan/reference/adipart.md)
+  : Additive Diversity Partitioning and Hierarchical Null Model Testing
+- [`adonis2()`](https://pefrens.github.io/tidyvegan/reference/adonis.md)
+  : Permutational Multivariate Analysis of Variance Using Distance
+  Matrices
+- [`anosim()`](https://pefrens.github.io/tidyvegan/reference/anosim.md)
+  : Analysis of Similarities
+- [`anova(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/anova.cca.md)
+  [`permutest(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/anova.cca.md)
+  : Permutation Test for Constrained Correspondence Analysis, Redundancy
+  Analysis and Constrained Analysis of Principal Coordinates
+- [`avgdist()`](https://pefrens.github.io/tidyvegan/reference/avgdist.md)
+  : Averaged Subsampled Dissimilarity Matrices
+- [`beals()`](https://pefrens.github.io/tidyvegan/reference/beals.md)
+  [`swan()`](https://pefrens.github.io/tidyvegan/reference/beals.md) :
+  Beals Smoothing and Degree of Absence
+- [`betadisper()`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`anova(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`scores(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`eigenvals(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`plot(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`boxplot(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`TukeyHSD(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`print(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  [`betadistances()`](https://pefrens.github.io/tidyvegan/reference/betadisper.md)
+  : Multivariate homogeneity of groups dispersions (variances)
+- [`betadiver()`](https://pefrens.github.io/tidyvegan/reference/betadiver.md)
+  [`plot(`*`<betadiver>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadiver.md)
+  [`scores(`*`<betadiver>`*`)`](https://pefrens.github.io/tidyvegan/reference/betadiver.md)
+  : Indices of beta Diversity
+- [`bgdispersal()`](https://pefrens.github.io/tidyvegan/reference/bgdispersal.md)
+  : Coefficients of Biogeographical Dispersal Direction
+- [`bioenv(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/bioenv.md)
+  [`bioenv(`*`<formula>`*`)`](https://pefrens.github.io/tidyvegan/reference/bioenv.md)
+  [`bioenvdist()`](https://pefrens.github.io/tidyvegan/reference/bioenv.md)
+  : Best Subset of Environmental Variables with Maximum (Rank)
+  Correlation with Community Dissimilarities
+- [`biplot(`*`<rda>`*`)`](https://pefrens.github.io/tidyvegan/reference/biplot.rda.md)
+  : PCA biplot
+- [`cascadeKM()`](https://pefrens.github.io/tidyvegan/reference/cascadeKM.md)
+  [`cIndexKM()`](https://pefrens.github.io/tidyvegan/reference/cascadeKM.md)
+  [`plot(`*`<cascadeKM>`*`)`](https://pefrens.github.io/tidyvegan/reference/cascadeKM.md)
+  : K-means partitioning using a range of values of K
+- [`cca(`*`<formula>`*`)`](https://pefrens.github.io/tidyvegan/reference/cca.md)
+  [`rda(`*`<formula>`*`)`](https://pefrens.github.io/tidyvegan/reference/cca.md)
+  [`cca(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/cca.md)
+  [`rda(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/cca.md)
+  [`ca()`](https://pefrens.github.io/tidyvegan/reference/cca.md)
+  [`pca()`](https://pefrens.github.io/tidyvegan/reference/cca.md) :
+  \[Partial\] \[Constrained\] Correspondence Analysis and Redundancy
+  Analysis
+- [`ordConstrained()`](https://pefrens.github.io/tidyvegan/reference/cca.object.md)
+  [`ordiYbar()`](https://pefrens.github.io/tidyvegan/reference/cca.object.md)
+  [`model.frame(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/cca.object.md)
+  [`model.matrix(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/cca.object.md)
+  [`weights(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/cca.object.md)
+  : Result Object from Constrained Ordination
+- [`clamtest()`](https://pefrens.github.io/tidyvegan/reference/clamtest.md)
+  [`summary(`*`<clamtest>`*`)`](https://pefrens.github.io/tidyvegan/reference/clamtest.md)
+  [`plot(`*`<clamtest>`*`)`](https://pefrens.github.io/tidyvegan/reference/clamtest.md)
+  : Multinomial Species Classification Method (CLAM)
+- [`commsim()`](https://pefrens.github.io/tidyvegan/reference/commsim.md)
+  [`make.commsim()`](https://pefrens.github.io/tidyvegan/reference/commsim.md)
+  [`print(`*`<commsim>`*`)`](https://pefrens.github.io/tidyvegan/reference/commsim.md)
+  : Create an Object for Null Model Algorithms
+- [`contribdiv()`](https://pefrens.github.io/tidyvegan/reference/contribdiv.md)
+  [`plot(`*`<contribdiv>`*`)`](https://pefrens.github.io/tidyvegan/reference/contribdiv.md)
+  : Contribution Diversity Approach
+- [`dbrda()`](https://pefrens.github.io/tidyvegan/reference/dbrda.md)
+  [`capscale()`](https://pefrens.github.io/tidyvegan/reference/dbrda.md)
+  [`pco()`](https://pefrens.github.io/tidyvegan/reference/dbrda.md) :
+  Principal Coordinates Analysis and \[Partial\] Distance-based
+  Redundancy Analysis
+- [`decorana()`](https://pefrens.github.io/tidyvegan/reference/decorana.md)
+  [`plot(`*`<decorana>`*`)`](https://pefrens.github.io/tidyvegan/reference/decorana.md)
+  [`text(`*`<decorana>`*`)`](https://pefrens.github.io/tidyvegan/reference/decorana.md)
+  [`points(`*`<decorana>`*`)`](https://pefrens.github.io/tidyvegan/reference/decorana.md)
+  [`scores(`*`<decorana>`*`)`](https://pefrens.github.io/tidyvegan/reference/decorana.md)
+  [`downweight()`](https://pefrens.github.io/tidyvegan/reference/decorana.md)
+  : Detrended Correspondence Analysis and Basic Reciprocal Averaging
+- [`decostand()`](https://pefrens.github.io/tidyvegan/reference/decostand.md)
+  [`wisconsin()`](https://pefrens.github.io/tidyvegan/reference/decostand.md)
+  [`decobackstand()`](https://pefrens.github.io/tidyvegan/reference/decostand.md)
+  : Standardization Methods for Community Ecology
+- [`designdist()`](https://pefrens.github.io/tidyvegan/reference/designdist.md)
+  [`designdist2()`](https://pefrens.github.io/tidyvegan/reference/designdist.md)
+  [`chaodist()`](https://pefrens.github.io/tidyvegan/reference/designdist.md)
+  : Design your own Dissimilarities
+- [`deviance(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/deviance.cca.md)
+  [`extractAIC(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/deviance.cca.md)
+  : Statistics Resembling Deviance and AIC for Constrained Ordination
+- [`dispindmorisita()`](https://pefrens.github.io/tidyvegan/reference/dispindmorisita.md)
+  : Morisita index of intraspecific aggregation
+- [`dispweight()`](https://pefrens.github.io/tidyvegan/reference/dispweight.md)
+  [`gdispweight()`](https://pefrens.github.io/tidyvegan/reference/dispweight.md)
+  [`summary(`*`<dispweight>`*`)`](https://pefrens.github.io/tidyvegan/reference/dispweight.md)
+  : Dispersion-based weighting of species counts
+- [`distconnected()`](https://pefrens.github.io/tidyvegan/reference/distconnected.md)
+  [`no.shared()`](https://pefrens.github.io/tidyvegan/reference/distconnected.md)
+  : Connectedness of Dissimilarities
+- [`diversity()`](https://pefrens.github.io/tidyvegan/reference/diversity.md)
+  [`simpson.unb()`](https://pefrens.github.io/tidyvegan/reference/diversity.md)
+  [`fisher.alpha()`](https://pefrens.github.io/tidyvegan/reference/diversity.md)
+  [`specnumber()`](https://pefrens.github.io/tidyvegan/reference/diversity.md)
+  : Ecological Diversity Indices
+- [`dune`](https://pefrens.github.io/tidyvegan/reference/dune.md)
+  [`dune.env`](https://pefrens.github.io/tidyvegan/reference/dune.md) :
+  Vegetation and Environment in Dutch Dune Meadows.
+- [`dune.taxon`](https://pefrens.github.io/tidyvegan/reference/dune.taxon.md)
+  [`dune.phylodis`](https://pefrens.github.io/tidyvegan/reference/dune.taxon.md)
+  : Taxonomic Classification and Phylogeny of Dune Meadow Species
+- [`eigenvals()`](https://pefrens.github.io/tidyvegan/reference/eigenvals.md)
+  [`summary(`*`<eigenvals>`*`)`](https://pefrens.github.io/tidyvegan/reference/eigenvals.md)
+  : Extract Eigenvalues from an Ordination Object
+- [`envfit(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/envfit.md)
+  [`envfit(`*`<formula>`*`)`](https://pefrens.github.io/tidyvegan/reference/envfit.md)
+  [`plot(`*`<envfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/envfit.md)
+  [`scores(`*`<envfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/envfit.md)
+  [`` `names<-`( ``*`<envfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/envfit.md)
+  [`vectorfit()`](https://pefrens.github.io/tidyvegan/reference/envfit.md)
+  [`factorfit()`](https://pefrens.github.io/tidyvegan/reference/envfit.md)
+  : Fits an Environmental Vector or Factor onto an Ordination
+- [`eventstar()`](https://pefrens.github.io/tidyvegan/reference/eventstar.md)
+  : Scale Parameter at the Minimum of the Tsallis Evenness Profile
+- [`fisherfit()`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`prestonfit()`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`prestondistr()`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`plot(`*`<prestonfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`lines(`*`<prestonfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`veiledspec()`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`as.fisher()`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`plot(`*`<fisher>`*`)`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`as.preston()`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`plot(`*`<preston>`*`)`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  [`lines(`*`<preston>`*`)`](https://pefrens.github.io/tidyvegan/reference/fisherfit.md)
+  : Fit Fisher's Logseries and Preston's Lognormal Model to Abundance
+  Data
+- [`getFcore()`](https://pefrens.github.io/tidyvegan/reference/getFcore.md)
+  : R prototypes of (alternative) implementations of getF.c
+- [`goodness(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/goodness.cca.md)
+  [`inertcomp()`](https://pefrens.github.io/tidyvegan/reference/goodness.cca.md)
+  [`spenvcor()`](https://pefrens.github.io/tidyvegan/reference/goodness.cca.md)
+  [`intersetcor()`](https://pefrens.github.io/tidyvegan/reference/goodness.cca.md)
+  [`vif.cca()`](https://pefrens.github.io/tidyvegan/reference/goodness.cca.md)
+  [`alias(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/goodness.cca.md)
+  : Diagnostic Tools for \[Constrained\] Ordination (CCA, RDA, DCA, CA,
+  PCA)
+- [`goodness(`*`<metaMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/goodness.metaMDS.md)
+  [`stressplot(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/goodness.metaMDS.md)
+  : Goodness of Fit and Shepard Plot for Nonmetric Multidimensional
+  Scaling
+- [`indpower()`](https://pefrens.github.io/tidyvegan/reference/indpower.md)
+  : Indicator Power of Species
+- [`hatvalues(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`rstandard(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`rstudent(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`cooks.distance(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`influence(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`sigma(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`vcov(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`SSD(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`qr(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  [`df.residual(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/influence.cca.md)
+  : Linear Model Diagnostics for Constrained Ordination
+- [`isomap()`](https://pefrens.github.io/tidyvegan/reference/isomap.md)
+  [`isomapdist()`](https://pefrens.github.io/tidyvegan/reference/isomap.md)
+  [`summary(`*`<isomap>`*`)`](https://pefrens.github.io/tidyvegan/reference/isomap.md)
+  [`plot(`*`<isomap>`*`)`](https://pefrens.github.io/tidyvegan/reference/isomap.md)
+  : Isometric Feature Mapping Ordination
+- [`kendall.global()`](https://pefrens.github.io/tidyvegan/reference/kendall.global.md)
+  [`kendall.post()`](https://pefrens.github.io/tidyvegan/reference/kendall.global.md)
+  : Kendall coefficient of concordance
+- [`linestack()`](https://pefrens.github.io/tidyvegan/reference/linestack.md)
+  : Plots One-dimensional Diagrams without Overwriting Labels
+- [`make.cepnames()`](https://pefrens.github.io/tidyvegan/reference/make.cepnames.md)
+  : Abbreviates a Two-Part Botanical or Zoological Latin Name into
+  Character String
+- [`mantel()`](https://pefrens.github.io/tidyvegan/reference/mantel.md)
+  [`mantel.partial()`](https://pefrens.github.io/tidyvegan/reference/mantel.md)
+  [`summary(`*`<mantel>`*`)`](https://pefrens.github.io/tidyvegan/reference/mantel.md)
+  : Mantel and Partial Mantel Tests for Dissimilarity Matrices
+- [`mantel.correlog()`](https://pefrens.github.io/tidyvegan/reference/mantel.correlog.md)
+  [`plot(`*`<mantel.correlog>`*`)`](https://pefrens.github.io/tidyvegan/reference/mantel.correlog.md)
+  : Mantel Correlogram
+- [`metaMDS()`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`plot(`*`<metaMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`points(`*`<metaMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`text(`*`<metaMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`scores(`*`<metaMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`metaMDSdist()`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`metaMDSiter()`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`initMDS()`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`postMDS()`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  [`metaMDSredist()`](https://pefrens.github.io/tidyvegan/reference/metaMDS.md)
+  : Nonmetric Multidimensional Scaling with Stable Solution from Random
+  Starts, Axis Scaling and Species Scores
+- [`mite`](https://pefrens.github.io/tidyvegan/reference/mite.md)
+  [`mite.env`](https://pefrens.github.io/tidyvegan/reference/mite.md)
+  [`mite.pcnm`](https://pefrens.github.io/tidyvegan/reference/mite.md)
+  [`mite.xy`](https://pefrens.github.io/tidyvegan/reference/mite.md) :
+  Oribatid Mite Data with Explanatory Variables
+- [`monoMDS()`](https://pefrens.github.io/tidyvegan/reference/monoMDS.md)
+  [`scores(`*`<monoMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/monoMDS.md)
+  [`plot(`*`<monoMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/monoMDS.md)
+  [`points(`*`<monoMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/monoMDS.md)
+  [`text(`*`<monoMDS>`*`)`](https://pefrens.github.io/tidyvegan/reference/monoMDS.md)
+  : Global and Local Non-metric Multidimensional Scaling and Linear and
+  Hybrid Scaling
+- [`mrpp()`](https://pefrens.github.io/tidyvegan/reference/mrpp.md)
+  [`meandist()`](https://pefrens.github.io/tidyvegan/reference/mrpp.md)
+  [`summary(`*`<mrpp>`*`)`](https://pefrens.github.io/tidyvegan/reference/mrpp.md)
+  [`summary(`*`<meandist>`*`)`](https://pefrens.github.io/tidyvegan/reference/mrpp.md)
+  [`plot(`*`<meandist>`*`)`](https://pefrens.github.io/tidyvegan/reference/mrpp.md)
+  : Multi Response Permutation Procedure and Mean Dissimilarity Matrix
+- [`mso()`](https://pefrens.github.io/tidyvegan/reference/mso.md)
+  [`msoplot()`](https://pefrens.github.io/tidyvegan/reference/mso.md) :
+  Functions for performing and displaying a spatial partitioning of cca
+  or rda results
+- [`multipart()`](https://pefrens.github.io/tidyvegan/reference/multipart.md)
+  : Multiplicative Diversity Partitioning
+- [`nestedchecker()`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`nestedn0()`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`nesteddisc()`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`nestedtemp()`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`nestednodf()`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`nestedbetasor()`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`nestedbetajac()`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`plot(`*`<nestedtemp>`*`)`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  [`plot(`*`<nestednodf>`*`)`](https://pefrens.github.io/tidyvegan/reference/nestedtemp.md)
+  : Nestedness Indices for Communities of Islands or Patches
+- [`nobs(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/nobs.cca.md)
+  : Extract the Number of Observations from a vegan Fit.
+- [`nullmodel()`](https://pefrens.github.io/tidyvegan/reference/nullmodel.md)
+  [`print(`*`<nullmodel>`*`)`](https://pefrens.github.io/tidyvegan/reference/nullmodel.md)
+  [`simulate(`*`<nullmodel>`*`)`](https://pefrens.github.io/tidyvegan/reference/nullmodel.md)
+  [`update(`*`<nullmodel>`*`)`](https://pefrens.github.io/tidyvegan/reference/nullmodel.md)
+  [`print(`*`<simmat>`*`)`](https://pefrens.github.io/tidyvegan/reference/nullmodel.md)
+  [`smbind()`](https://pefrens.github.io/tidyvegan/reference/nullmodel.md)
+  : Null Model and Simulation
+- [`oecosimu()`](https://pefrens.github.io/tidyvegan/reference/oecosimu.md)
+  [`summary(`*`<oecosimu>`*`)`](https://pefrens.github.io/tidyvegan/reference/oecosimu.md)
+  [`as.ts(`*`<oecosimu>`*`)`](https://pefrens.github.io/tidyvegan/reference/oecosimu.md)
+  [`toCoda(`*`<oecosimu>`*`)`](https://pefrens.github.io/tidyvegan/reference/oecosimu.md)
+  : Evaluate Statistics with Null Models of Biological Communities
+- [`optspace()`](https://pefrens.github.io/tidyvegan/reference/optspace.md)
+  : optspace: algorithm for matrix reconstruction from a partially
+  revealed set
+- [`ordiArrowTextXY()`](https://pefrens.github.io/tidyvegan/reference/ordiArrowTextXY.md)
+  [`ordiArrowMul()`](https://pefrens.github.io/tidyvegan/reference/ordiArrowTextXY.md)
+  : Support Functions for Drawing Vectors
+- [`ordiarrows()`](https://pefrens.github.io/tidyvegan/reference/ordiarrows.md)
+  [`ordisegments()`](https://pefrens.github.io/tidyvegan/reference/ordiarrows.md)
+  [`ordigrid()`](https://pefrens.github.io/tidyvegan/reference/ordiarrows.md)
+  : Add Arrows and Line Segments to Ordination Diagrams
+- [`ordihull()`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`ordiellipse()`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`ordibar()`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`ordispider()`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`ordicluster()`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`summary(`*`<ordihull>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`summary(`*`<ordiellipse>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`ordiareatest()`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  [`summary(`*`<ordiareatest>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordihull.md)
+  : Display Groups or Factor Levels in Ordination Diagrams
+- [`ordilabel()`](https://pefrens.github.io/tidyvegan/reference/ordilabel.md)
+  : Add Text on Non-transparent Label to an Ordination Plot.
+- [`ordiplot()`](https://pefrens.github.io/tidyvegan/reference/ordiplot.md)
+  [`points(`*`<ordiplot>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordiplot.md)
+  [`text(`*`<ordiplot>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordiplot.md)
+  [`identify(`*`<ordiplot>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordiplot.md)
+  : Alternative plot and identify Functions for Ordination
+- [`ordipointlabel()`](https://pefrens.github.io/tidyvegan/reference/ordipointlabel.md)
+  [`plot(`*`<ordipointlabel>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordipointlabel.md)
+  : Ordination Plots with Points and Optimized Locations for Text
+- [`ordistep()`](https://pefrens.github.io/tidyvegan/reference/ordistep.md)
+  [`ordiR2step()`](https://pefrens.github.io/tidyvegan/reference/ordistep.md)
+  : Choose a Model by Permutation Tests in Constrained Ordination
+- [`ordisurf(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordisurf.md)
+  [`ordisurf(`*`<formula>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordisurf.md)
+  [`calibrate(`*`<ordisurf>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordisurf.md)
+  [`plot(`*`<ordisurf>`*`)`](https://pefrens.github.io/tidyvegan/reference/ordisurf.md)
+  : Fit and Plot Smooth Surfaces of Variables on Ordination.
+- [`orditorp()`](https://pefrens.github.io/tidyvegan/reference/orditorp.md)
+  : Add Text or Points to Ordination Plots
+- [`pcnm()`](https://pefrens.github.io/tidyvegan/reference/pcnm.md) :
+  Principal Coordinates of Neighbourhood Matrix
+- [`permatfull()`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`permatswap()`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`print(`*`<permat>`*`)`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`summary(`*`<permat>`*`)`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`print(`*`<summary.permat>`*`)`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`plot(`*`<permat>`*`)`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`lines(`*`<permat>`*`)`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`as.ts(`*`<permat>`*`)`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  [`toCoda(`*`<permat>`*`)`](https://pefrens.github.io/tidyvegan/reference/permatfull.md)
+  : Matrix Permutation Algorithms for Presence-Absence and Count Data
+- [`permustats()`](https://pefrens.github.io/tidyvegan/reference/permustats.md)
+  [`summary(`*`<permustats>`*`)`](https://pefrens.github.io/tidyvegan/reference/permustats.md)
+  [`density(`*`<permustats>`*`)`](https://pefrens.github.io/tidyvegan/reference/permustats.md)
+  [`qqnorm(`*`<permustats>`*`)`](https://pefrens.github.io/tidyvegan/reference/permustats.md)
+  [`boxplot(`*`<permustats>`*`)`](https://pefrens.github.io/tidyvegan/reference/permustats.md)
+  [`pairs(`*`<permustats>`*`)`](https://pefrens.github.io/tidyvegan/reference/permustats.md)
+  : Extract, Analyse and Display Permutation Results
+- [`permutations`](https://pefrens.github.io/tidyvegan/reference/permutations.md)
+  : Permutation tests in Vegan
+- [`permutest(`*`<betadisper>`*`)`](https://pefrens.github.io/tidyvegan/reference/permutest.betadisper.md)
+  : Permutation test of multivariate homogeneity of groups dispersions
+  (variances)
+- [`plot(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/plot.cca.md)
+  [`text(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/plot.cca.md)
+  [`points(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/plot.cca.md)
+  [`scores(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/plot.cca.md)
+  [`scores(`*`<rda>`*`)`](https://pefrens.github.io/tidyvegan/reference/plot.cca.md)
+  [`summary(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/plot.cca.md)
+  [`labels(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/plot.cca.md)
+  : Plot or Extract Results of Constrained Correspondence Analysis or
+  Redundancy Analysis
+- [`prc()`](https://pefrens.github.io/tidyvegan/reference/prc.md)
+  [`summary(`*`<prc>`*`)`](https://pefrens.github.io/tidyvegan/reference/prc.md)
+  [`plot(`*`<prc>`*`)`](https://pefrens.github.io/tidyvegan/reference/prc.md)
+  : Principal Response Curves for Treatments with Repeated Observations
+- [`fitted(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`fitted(`*`<capscale>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`residuals(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`predict(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`predict(`*`<rda>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`predict(`*`<dbrda>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`calibrate(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`coef(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  [`predict(`*`<decorana>`*`)`](https://pefrens.github.io/tidyvegan/reference/predict.cca.md)
+  : Prediction Tools for \[Constrained\] Ordination (CCA, RDA, DCA, CA,
+  PCA)
+- [`procrustes()`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`summary(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`plot(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`points(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`text(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`lines(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`residuals(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`fitted(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`predict(`*`<procrustes>`*`)`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  [`protest()`](https://pefrens.github.io/tidyvegan/reference/procrustes.md)
+  : Procrustes Rotation of Two Configurations and PROTEST
+- [`pyrifos`](https://pefrens.github.io/tidyvegan/reference/pyrifos.md)
+  : Response of Aquatic Invertebrates to Insecticide Treatment
+- [`radfit(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`rad.null()`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`rad.preempt()`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`rad.lognormal()`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`rad.zipf()`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`rad.zipfbrot()`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`predict(`*`<radline>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`plot(`*`<radfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`plot(`*`<radfit.frame>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`plot(`*`<radline>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`radlattice()`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`lines(`*`<radfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`points(`*`<radfit>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`as.rad()`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  [`plot(`*`<rad>`*`)`](https://pefrens.github.io/tidyvegan/reference/radfit.md)
+  : Rank – Abundance or Dominance / Diversity Models
+- [`rankindex()`](https://pefrens.github.io/tidyvegan/reference/rankindex.md)
+  : Compares Dissimilarity Indices for Gradient Detection
+- [`rarefy()`](https://pefrens.github.io/tidyvegan/reference/rarefy.md)
+  [`rrarefy()`](https://pefrens.github.io/tidyvegan/reference/rarefy.md)
+  [`drarefy()`](https://pefrens.github.io/tidyvegan/reference/rarefy.md)
+  [`rarecurve()`](https://pefrens.github.io/tidyvegan/reference/rarefy.md)
+  [`rareslope()`](https://pefrens.github.io/tidyvegan/reference/rarefy.md)
+  : Rarefaction Species Richness
+- [`raupcrick()`](https://pefrens.github.io/tidyvegan/reference/raupcrick.md)
+  : Raup-Crick Dissimilarity with Unequal Sampling Densities of Species
+- [`read.cep()`](https://pefrens.github.io/tidyvegan/reference/read.cep.md)
+  : Reads a CEP (Canoco) data file
+- [`renyi()`](https://pefrens.github.io/tidyvegan/reference/renyi.md)
+  [`renyiaccum()`](https://pefrens.github.io/tidyvegan/reference/renyi.md)
+  [`plot(`*`<renyi>`*`)`](https://pefrens.github.io/tidyvegan/reference/renyi.md)
+  [`plot(`*`<renyiaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/renyi.md)
+  [`lines(`*`<renyiaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/renyi.md)
+  [`persp(`*`<renyiaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/renyi.md)
+  : Renyi and Hill Diversities and Corresponding Accumulation Curves
+- [`reorder(`*`<hclust>`*`)`](https://pefrens.github.io/tidyvegan/reference/reorder.hclust.md)
+  [`rev(`*`<hclust>`*`)`](https://pefrens.github.io/tidyvegan/reference/reorder.hclust.md)
+  [`scores(`*`<hclust>`*`)`](https://pefrens.github.io/tidyvegan/reference/reorder.hclust.md)
+  [`cutreeord()`](https://pefrens.github.io/tidyvegan/reference/reorder.hclust.md)
+  : Reorder a Hierarchical Clustering Tree
+- [`scalingType()`](https://pefrens.github.io/tidyvegan/reference/scalingType.md)
+  : Utility for handling user friendly scaling — None exported
+- [`scores(`*`<default>`*`)`](https://pefrens.github.io/tidyvegan/reference/scores.md)
+  : Get Species or Site Scores from an Ordination
+- [`screeplot(`*`<cca>`*`)`](https://pefrens.github.io/tidyvegan/reference/screeplot.cca.md)
+  [`screeplot(`*`<decorana>`*`)`](https://pefrens.github.io/tidyvegan/reference/screeplot.cca.md)
+  [`screeplot(`*`<prcomp>`*`)`](https://pefrens.github.io/tidyvegan/reference/screeplot.cca.md)
+  [`screeplot(`*`<princomp>`*`)`](https://pefrens.github.io/tidyvegan/reference/screeplot.cca.md)
+  [`bstick()`](https://pefrens.github.io/tidyvegan/reference/screeplot.cca.md)
+  : Screeplots for Ordination Results and Broken Stick Distributions
+- [`simper()`](https://pefrens.github.io/tidyvegan/reference/simper.md)
+  [`summary(`*`<simper>`*`)`](https://pefrens.github.io/tidyvegan/reference/simper.md)
+  : Similarity Percentages
+- [`simulate(`*`<rda>`*`)`](https://pefrens.github.io/tidyvegan/reference/simulate.rda.md)
+  : Simulate Responses with Gaussian Error or Permuted Residuals for
+  Constrained Ordination
+- [`sipoo`](https://pefrens.github.io/tidyvegan/reference/sipoo.md)
+  [`sipoo.map`](https://pefrens.github.io/tidyvegan/reference/sipoo.md)
+  : Birds in the Archipelago of Sipoo (Sibbo and Borgå)
+- [`spantree()`](https://pefrens.github.io/tidyvegan/reference/spantree.md)
+  [`as.hclust(`*`<spantree>`*`)`](https://pefrens.github.io/tidyvegan/reference/spantree.md)
+  [`cophenetic(`*`<spantree>`*`)`](https://pefrens.github.io/tidyvegan/reference/spantree.md)
+  [`spandepth()`](https://pefrens.github.io/tidyvegan/reference/spantree.md)
+  [`plot(`*`<spantree>`*`)`](https://pefrens.github.io/tidyvegan/reference/spantree.md)
+  [`lines(`*`<spantree>`*`)`](https://pefrens.github.io/tidyvegan/reference/spantree.md)
+  : Minimum Spanning Tree
+- [`specaccum()`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  [`plot(`*`<specaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  [`boxplot(`*`<specaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  [`fitspecaccum()`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  [`plot(`*`<fitspecaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  [`predict(`*`<specaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  [`predict(`*`<fitspecaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  [`specslope()`](https://pefrens.github.io/tidyvegan/reference/specaccum.md)
+  : Species Accumulation Curves
+- [`specpool()`](https://pefrens.github.io/tidyvegan/reference/specpool.md)
+  [`estimateR()`](https://pefrens.github.io/tidyvegan/reference/specpool.md)
+  [`specpool2vect()`](https://pefrens.github.io/tidyvegan/reference/specpool.md)
+  [`poolaccum()`](https://pefrens.github.io/tidyvegan/reference/specpool.md)
+  [`estaccumR()`](https://pefrens.github.io/tidyvegan/reference/specpool.md)
+  [`summary(`*`<poolaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/specpool.md)
+  [`plot(`*`<poolaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/specpool.md)
+  : Extrapolated Species Richness in a Species Pool
+- [`` `sppscores<-`() ``](https://pefrens.github.io/tidyvegan/reference/sppscores.md)
+  : Add or Replace Species Scores in Distance-Based Ordination
+- [`stepacross()`](https://pefrens.github.io/tidyvegan/reference/stepacross.md)
+  : Stepacross as Flexible Shortest Paths or Extended Dissimilarities
+- [`stressplot(`*`<wcmdscale>`*`)`](https://pefrens.github.io/tidyvegan/reference/stressplot.wcmdscale.md)
+  : Display Ordination Distances Against Observed Distances in
+  Eigenvector Ordinations
+- [`t_cca()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_rda()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_metaMDS()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_vegdist()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_decostand()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_adonis2()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_anosim()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_mrpp()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_specaccum()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_rarecurve()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_rarefy()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_rrarefy()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  [`t_drarefy()`](https://pefrens.github.io/tidyvegan/reference/t_wrappers.md)
+  : Tidy Wrappers for vegan Functions
+- [`taxondive()`](https://pefrens.github.io/tidyvegan/reference/taxondive.md)
+  [`taxa2dist()`](https://pefrens.github.io/tidyvegan/reference/taxondive.md)
+  : Indices of Taxonomic Diversity and Distinctness
+- [`tidyvegan-deprecated`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-deprecated.md)
+  : Deprecated Functions in vegan package
+- [`ordiParseFormula()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`ordiTerminfo()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`ordiNAexclude()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`ordiNApredict()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`ordiArgAbsorber()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`centroids.cca()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`getPermuteMatrix()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`howHead()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`pasteCall()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`tidyveganCovEllipse()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`tidyveganMahatrans()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`hierParseFormula()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`GowerDblcen()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`addLingoes()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  [`addCailliez()`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-internal.md)
+  : Internal vegan functions
+- [`tidyvegan-package`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-package.md)
+  [`tidyvegan`](https://pefrens.github.io/tidyvegan/reference/tidyvegan-package.md)
+  : Community Ecology Package: Ordination, Diversity and Dissimilarities
+- [`tolerance()`](https://pefrens.github.io/tidyvegan/reference/tolerance.md)
+  : Species tolerances and sample heterogeneities.
+- [`treedive()`](https://pefrens.github.io/tidyvegan/reference/treedive.md)
+  [`treeheight()`](https://pefrens.github.io/tidyvegan/reference/treedive.md)
+  [`treedist()`](https://pefrens.github.io/tidyvegan/reference/treedive.md)
+  : Functional Diversity and Community Distances from Species Trees
+- [`tsallis()`](https://pefrens.github.io/tidyvegan/reference/tsallis.md)
+  [`tsallisaccum()`](https://pefrens.github.io/tidyvegan/reference/tsallis.md)
+  [`persp(`*`<tsallisaccum>`*`)`](https://pefrens.github.io/tidyvegan/reference/tsallis.md)
+  : Tsallis Diversity and Corresponding Accumulation Curves
+- [`varechem`](https://pefrens.github.io/tidyvegan/reference/varechem.md)
+  [`varespec`](https://pefrens.github.io/tidyvegan/reference/varechem.md)
+  : Vegetation and environment in lichen pastures
+- [`varpart()`](https://pefrens.github.io/tidyvegan/reference/varpart.md)
+  [`summary(`*`<varpart>`*`)`](https://pefrens.github.io/tidyvegan/reference/varpart.md)
+  [`plot(`*`<varpart>`*`)`](https://pefrens.github.io/tidyvegan/reference/varpart.md)
+  [`plot(`*`<varpart234>`*`)`](https://pefrens.github.io/tidyvegan/reference/varpart.md)
+  [`showvarparts()`](https://pefrens.github.io/tidyvegan/reference/varpart.md)
+  : Partition the Variation of Community Matrix by 2, 3, or 4
+  Explanatory Matrices
+- [`vegdist()`](https://pefrens.github.io/tidyvegan/reference/vegdist.md)
+  : Dissimilarity Indices for Community Ecologists
+- [`vegemite()`](https://pefrens.github.io/tidyvegan/reference/vegemite.md)
+  [`tabasco()`](https://pefrens.github.io/tidyvegan/reference/vegemite.md)
+  [`coverscale()`](https://pefrens.github.io/tidyvegan/reference/vegemite.md)
+  : Display Compact Ordered Community Tables
+- [`wascores()`](https://pefrens.github.io/tidyvegan/reference/wascores.md)
+  [`eigengrad()`](https://pefrens.github.io/tidyvegan/reference/wascores.md)
+  [`scores(`*`<wascores>`*`)`](https://pefrens.github.io/tidyvegan/reference/wascores.md)
+  : Weighted Averages Scores for Species
+- [`wcmdscale()`](https://pefrens.github.io/tidyvegan/reference/wcmdscale.md)
+  [`plot(`*`<wcmdscale>`*`)`](https://pefrens.github.io/tidyvegan/reference/wcmdscale.md)
+  [`scores(`*`<wcmdscale>`*`)`](https://pefrens.github.io/tidyvegan/reference/wcmdscale.md)
+  : Weighted Classical (Metric) Multidimensional Scaling
